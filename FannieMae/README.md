@@ -12,6 +12,7 @@ The 2008 recession was an eye-opener for the government of many countries, organ
 Fannie Mae, a government-sponsored enterprise that offers different types of mortgage loans provides open access to Single Family Mortgage dataset that was used for this study. The dataset consists of nearly 22 million records with a static acquisition file and a one to many monthly performance loan-level details for each quarter of the year since inception. Using the 2008 recession as the reference point, the period of 01 January 2008 and 31 December 2010 is considered as the recession and recovery period. Thus, only mortgages foreclosed during this period were considered as affected by the recession. 
 
 ## Methodology
+Logistic regression and XGBoost techniques were explored - XGBoost had better results.
 
 ## Result
 Overall, the lenders should be worried about loan with low equity, based on California, Florida or Arizona, for unmodified properties. If it is not a primary residential property, the original term is above average and the debt to income ratio of the borrower is in the upper limit of what is acceptable.
