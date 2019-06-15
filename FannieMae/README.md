@@ -17,3 +17,6 @@ Fannie Mae, a government-sponsored enterprise that offers different types of mor
 Overall, the lenders should be worried about loan with low equity, based on California, Florida or Arizona, for unmodified properties. If it is not a primary residential property, the original term is above average and the debt to income ratio of the borrower is in the upper limit of what is acceptable.
 
 Finally, the distribution of the confusion matrix per year show that predictions are more accurate as we move closer to the year of recession.
+
+## Author
+Kayode Ayankoya
