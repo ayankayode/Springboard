@@ -1,4 +1,4 @@
-# Predicting mortgages at risk of foreclosure in case of economic recession
+# Predicting mortgages prone to foreclosure during economic recession
 
 The 2008 recession was an eye-opener for the government of many countries, organizations, industries and individuals. One of the common occurrences during periods of recession is that some mortgage loans that were not at risk of default in a normal economy become susceptible to foreclosures due to significant changes in financial status of borrowers. This means that the normal risk analysis models may not necessarily identify borrowers that will default during adverse economic situations. Previous studies indicate that the number of foreclosures could be more than double of the normal rate of foreclosures in a stable economy. Therefore, it is important to lenders to be able to identify the characteristics of mortgages on their books that are at risk of foreclosures in case of another economic recession.
 
@@ -15,9 +15,12 @@ Fannie Mae, a government-sponsored enterprise that offers different types of mor
 Logistic regression and XGBoost techniques were explored - XGBoost had better results.
 
 ## Result
-Overall, the lenders should be worried about loan with low equity, based on California, Florida or Arizona, for unmodified properties. If it is not a primary residential property, the original term is above average and the debt to income ratio of the borrower is in the upper limit of what is acceptable.
+Different experiments were carried out using Support Vector Machines(SVM), Logistic Regression and Gradient Boosting (XGBoost). XGBoost had the best result in predicting which loan will or will not foreclose during a recession with a weighted 97.86% accuracy. Specifically, 73% accuracy was achieved in identifying loans that are prone to foreclose depending mainly . 
+
+Overall, the results show that mortgage with low equity to value ratio that the property is based in California, Florida or Arizona that has never been modified (improved/extended) are more prone to foreclosure during a recession that the others Other important factors that makes a mortgage prone to foreclosure in recession are If it is not a primary residential property, the original term is above average and the debt to income ratio of the borrower is in the upper limit of what is acceptable.
 
 Finally, the distribution of the confusion matrix per year show that predictions are more accurate as we move closer to the year of recession.
+
 
 ## Author
 Kayode Ayankoya
